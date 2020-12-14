@@ -1,0 +1,339 @@
+body{
+  margin: 0;
+font-family: 'Playfair Display', serif;
+  margin-top: 0px;
+}
+
+h1 {
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+}
+
+header{
+  display: flex;
+  position: fixed;
+  justify-content:flex-end;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  line-height: 35px;
+  background-color: #eee;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+header nav{
+width: 35%;
+}
+
+li a:hover:not(.linkene) {
+  font-weight: bolder;
+  font-size: 17px;
+color: #ffccdd;
+}
+
+
+header .profile-img{
+  width: 20px;
+}
+
+header li{
+  margin-left: 20px;
+  display: inline;
+}
+
+.logo{
+  width: 30px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.flex-container-logo{
+  display: flex;
+  justify-content:flex-start;
+  width: 60%;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/*Forsiden*/
+
+#home {
+height: 100vh;
+background: url('../image/baggrund.jpg') no-repeat center center/cover;
+height: 100%:
+position: relative;
+width: 100%;
+}
+
+.hero{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-family:'Piazzolla', serif;
+/*'Piazzolla', serif;*/
+font-style: italic;
+font-weight: lighter;
+}
+
+/*#home::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba (0, 0, 0, 0.6);
+}
+
+.hero *{
+  z-index: 10;
+}*/
+
+.overskrifthome{
+  font-size: 38px;
+  font-weight: none;
+  margin-bottom: 5px;
+  margin-top: 25%;
+}
+
+.underoverskrifthome{
+  font-size: 25px;
+  font-weight: none;
+  margin-top: 0px;
+  margin-bottom: 1%;
+}
+
+.teksthome {
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+
+
+
+/*Portfoliosiden*/
+
+#portfolio {
+  height: 180vh;
+  background-color: #f2f2f2;
+}
+
+.overskriftportfolio{
+  margin-top: 2%;
+  font-weight: bold;
+  margin-bottom: 5%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.portbilleder1{
+  height: 450px;
+  width: 350px;
+  margin-left: 19%;
+  margin-right: 6%;
+  margin-bottom: 5%;
+}
+
+.portbilleder2 {
+  height: 450px;
+  width: 350px;
+  margin-right: -18%;
+  margin-bottom: 5%;
+}
+
+.portbilleder3{
+  height: 450px;
+  width: 350px;
+  margin-left: 19%;
+  margin-right: 6%;
+  margin-bottom: 5%;
+}
+
+.portbilleder4{
+  height: 450px;
+  width: 350px;
+  margin-right: -18%;
+  margin-bottom: 5%;
+}
+
+
+/*Om mig siden*/
+
+#om_mig {
+height: 150vh;
+display: flex;
+flex-wrap: wrap;
+  background-color: #e6f2ff;
+}
+
+.overskriftommig{
+font-size: 30px;
+font-weight: bold;
+width: 90%;
+text-align: center;
+}
+
+.flex-billede-og-text{
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: center;
+  width: 100%;
+}
+
+.text-om-mig{
+width: 40%;
+/*margin-left: -13%;*/
+line-height: 180%;
+}
+
+.billede-mig {
+  width: 40%;
+}
+
+.billede-om-mig{
+  width: 60%;
+}
+
+.overskriftkom{
+  text-align: center;
+}
+
+.boks1{
+  margin-left: 4%;
+}
+
+.boks2 {
+margin-left: 20%;
+}
+
+.boks3{
+margin-left: 40%
+}
+
+.boks4{
+margin-left: 60%;
+}
+
+
+
+
+/*Kontakt siden*/
+
+#kontakt {
+  background-color: #ffe6ee;
+  height: 150vh;
+}
+
+.overskriftkontakt{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5%;
+  font-size: 30px;
+  margin-bottom: 1px;
+  }
+
+  .overskrift2{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+  }
+
+  .kontaktformular{
+    line-height: 30px;
+    margin-left: 40px;
+  }
+
+  .navn{
+  border: 1px solid black;
+  margin-right: 70%;
+  }
+
+  .e-mail{
+    border: 1px solid black;
+  margin-right: 70%;
+  }
+
+  .emne{
+    border: 1px solid black;
+    margin-right: 70%;
+  }
+
+  .besked{
+    border: 1px solid black;
+    margin-right: 70%;
+    padding-bottom: 8%;
+  }
+
+  .sendbesked{
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 70px;
+    margin-bottom: 3%;
+    border: 1px solid black;
+    margin-right: 70%;
+  }
+
+.overskriftudtalelse{
+  text-align: center;
+  font-weight: bold;
+  /*border-top: 1px solid black;*/
+  padding-top: 5%;
+  margin-top: 0%;
+}
+
+.selveudtalelsen{
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 3%;
+  border: 1px solid black;
+  padding: 30px 30px 30px 30px
+}
+ul {
+  list-style: none;
+}
+
+a:visited {
+color: black;
+}
+
+.btn:hover:not(.linkene) {
+  font-weight: bolder;
+  font-size: 17px;
+color: #ffb3cc;
+border: 1px solid #ffb3cc;
+padding: 10px 10px 10px 10px
+}
+
+.btn{
+  font-size: 18px;
+  margin-left: 85%;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+/*footer*/
+
+footer{
+  background-color: #ffe6ee;
+  text-decoration-color: black;
+  margin
+}
